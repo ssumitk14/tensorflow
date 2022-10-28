@@ -1,0 +1,21 @@
+1. Open jupyter-lab in D drive:
+
+		jupyter notebook --notebook-dir=D:/
+		
+		jupyter-lab --notebook-dir=D:/
+2. Tensor Flow Env used:
+    practiceTensorflow
+    
+    
+3. Create Virtual Env using conda
+    conda --version --> To check if conda exists
+    conda update conda --> Update conda version to latest version
+    conda create --name yourEnvName python=3.9 -y ---> Create environment
+    conda activate practiceTensorflow --> Activate env
+
+4. Add Conda Environment to Jupyter kernel
+
+    conda install -c anaconda ipykernel --> install ipykernel
+    python -m ipykernel install --user --name=firstEnv --> Use your Env name here
+    
+    
